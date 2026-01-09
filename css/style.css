@@ -1,0 +1,19 @@
+h3{
+    color:blueviolet;
+    background-color:aqua;
+    font-size: 50px;
+}
+p{
+    color:brown;
+    background-color: yellow;
+    font-size: 50px;
+}
+
+tbody,tfoot{
+    color:green;
+    background-color:white;
+}
+
+caption{
+    color:darkslategray;
+}
