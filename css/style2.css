@@ -1,0 +1,82 @@
+/* solid,dashed double dotted inset outset groove ridge */
+/* border shorthand--> width|style|color */
+.b_img_sample1{
+    width: 400px;
+    border: 7px solid red;
+    border-radius: 20px;
+}
+
+.b_img_sample2{
+    width: 400px;
+    border: 8px dotted red;
+}
+.b_img_sample3{
+    width: 400px;
+    border: 8px double  red;
+}
+.b_img_sample4{
+    width: 400px;
+    border: 8px inset  red;
+}
+.b_img_sample5{
+    width: 400px;
+    border: 8px outset  red;
+}
+.b_img_sample6{
+    width: 400px;
+    border: 8px groove  red;
+}
+.b_img_sample7{
+    width: 400px;
+    border: 8px ridge  red;
+}
+.b_img2{
+    width:400px;
+    border:8px solid ;
+    /* border-top-color:red;
+    border-right-color:blue;
+    border-bottom-color:orange;
+    border-left-color:yellow; */
+
+    /* or we have set a border,width,color for a single side so we can use below syntax */
+    /* border-left:10px double blue; */
+
+    border-color : blueviolet yellow green red;
+    
+}
+.b_img3{
+    width:400px;
+    border:9px double red;
+    /* border-radius:20px; */
+    border-top-left-radius:100px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 40px;
+    /* border-radius:50px 70px 50px 70px; */
+
+}
+
+
+
+.simple{
+    border:5px solid red;
+}
+
+.box_model1{
+    border:5px solid red;
+    padding: 40px;
+    margin: 50px;
+}
+
+.box_model2{
+     border:5px solid red;
+    /*padding-top: 30px;
+    padding-right: 160px;
+    padding-bottom: 60px;
+    padding-left: 70px; */
+
+    padding:30px 40px 30px 40px;
+    /* top-->right-->bottom-->left */
+    margin:20px 30px 20px 30px;
+    
+}
