@@ -24,11 +24,11 @@
 }
 .b_img_sample6{
     width: 400px;
-    border: 8px groove  red;
+    border: 20px groove  red;
 }
 .b_img_sample7{
     width: 400px;
-    border: 8px ridge  red;
+    border: 20px ridge  red;
 }
 .b_img2{
     width:400px;
@@ -79,4 +79,119 @@
     /* top-->right-->bottom-->left */
     margin:20px 30px 20px 30px;
     
+}
+
+/* position */
+.box{
+    width:200px;
+    height:100px;
+    background-color: gainsboro;
+    border:4px solid red;
+    margin-bottom:10px;
+}
+.box1{
+    position:static;
+    
+}
+
+.box2{
+    position:relative;
+    top:40px;
+    left:150px;
+}
+
+.box3{
+    position:absolute;
+    top:40px;
+    left:150px;
+}
+.box4{
+    position:fixed;
+    bottom:0px;
+    right:10px;
+}
+.box5{
+    position:sticky;
+    top:10px;
+    
+}
+
+/*  example of rel and abs */
+
+.rel{
+    position:relative;
+    height:400px;
+    width:400px;
+    background-color:darkcyan;
+    left:100px;
+    
+}
+#tv{
+    position:absolute;
+    height:50px;
+    width:150px;
+    background-color:blueviolet;
+    left:125px;
+
+}
+#sofa{
+    position:absolute;
+    height:70px;
+    width:200px;
+    background-color: brown;
+    left:180px;
+    top:200px;
+}
+#fridge{
+    position:absolute;
+    height:200px;
+    width:100px;
+    background-color:cadetblue;
+    left:20px;
+    top:180px;
+}
+/* body{
+    background-image: url("/images/astronomy-1867616_1280.jpg");
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-size:cover;
+} */
+.heading{
+    color:white;
+    font-size:50px;
+    text-align:center;
+}
+.t_para{
+    color:yellow;
+    padding:30px;
+    background-color:rgb(150, 130, 51);
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif;
+    margin:10px;
+}
+
+.linear{
+    height:400px;
+    /* background:linear-gradient(to left,red,green,yellow,blue); */
+    /* background:linear-gradient(to top,red,green,yellow,blue); */
+    background:linear-gradient(orange,white,green);
+}
+h1{
+    color:black;
+    text-align:center;
+}
+.radial{
+    height:600px;
+    /* background:radial-gradient(circle,black ,red,white); */
+    /* background:radial-gradient(circle at left top,black ,red,white,blue); */
+     /* background:radial-gradient(ellipse at center,black ,red,white,blue); */
+    /* background:radial-gradient(circle,blue,skyblue,green); */
+     background:radial-gradient(ellipse at center ,white,blue,skyblue,green);
+
+}
+
+.conic{
+    height:600px;
+    /* background:conic-gradient(from 90deg, red,yellow,green,blue,white,brown ); */
+    background:conic-gradient(from 120deg, red,yellow,green,blue,white,brown );
 }
