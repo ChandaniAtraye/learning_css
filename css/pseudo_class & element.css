@@ -1,0 +1,43 @@
+h1:hover{
+    color:hotpink;
+    background-color:gray;
+}
+.para2:hover{
+    border:2px solid red;
+    padding:10px;
+    background:linear-gradient(black,green);
+    color:white;
+    padding:40px;
+    margin:50px;
+
+}
+
+.para1:active{
+    color:red;
+    font-size:40px;
+    cursor:pointer;
+}
+
+a:visited{
+    color:green;
+}
+input:focus{
+    background-color:green;
+    color:white;
+    border:8px solid yellowgreen;
+}
+
+/*  pseudo element selector */
+h1::first-letter{
+    color:aquamarine;
+    font-size:40px;
+}
+
+p::first-line{
+    color:rgb(160, 21, 123);
+}
+
+p::selection{
+    color:yellowgreen;
+    
+}
