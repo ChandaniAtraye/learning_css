@@ -1,0 +1,21 @@
+div{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    background-color: red;
+    position:relative;
+    animation:movingbox;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-delay: 1s;
+    animation-direction:normal;
+    
+}
+@keyframes movingbox{
+    0%{background-color: red; left:0px; top:0px;}
+    25%{background-color: yellow; left:300px; top:0px;}
+    50%{background-color: blueviolet; left:300px; top:300px;}
+    75%{background-color: aquamarine; left:0px; top:300px;}
+    100%{background-color: red; left:0px; top:0px;}
+
+}
