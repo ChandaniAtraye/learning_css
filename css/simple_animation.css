@@ -2,20 +2,30 @@ div{
     width:150px;
     height:150px;
     border-radius:50%;
-    background-color: red;
+    background-size:cover;
+    /* background-position:center;
+    background-repeat:no-repeat; */
     position:relative;
     animation:movingbox;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count:infinite;
     animation-delay: 1s;
     animation-direction:normal;
     
 }
 @keyframes movingbox{
-    0%{background-color: red; left:0px; top:0px;}
+    /* 0%{background-color: red; left:0px; top:0px;}
     25%{background-color: yellow; left:300px; top:0px;}
     50%{background-color: blueviolet; left:300px; top:300px;}
     75%{background-color: aquamarine; left:0px; top:300px;}
-    100%{background-color: red; left:0px; top:0px;}
+    100%{background-color: red; left:0px; top:0px;} */
+
+
+    0%{background-image:url("/images/school-845196_1920.png"); left:0px; top:0px;}
+    25%{background-image:url("/images/nature2.jpg");left:300px; top:0px;}
+    50%{background-image: url("/images/astronomy-1867616_1280.jpg"); left:300px; top:300px;}
+    75%{background-image: url("/images/nature3.jpg"); left:0px; top:300px;}
+    100%{background-image:url("/images/school-845196_1920.png"); left:0px; top:0px;}
+    
 
 }
