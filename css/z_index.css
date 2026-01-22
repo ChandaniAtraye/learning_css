@@ -1,0 +1,40 @@
+/* z-index  */
+/* z-index not applicable for static */
+/* opacity,rgba */
+.container{
+    position:relative;
+    margin:100px;
+
+}
+div{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position:absolute;
+    border:3px solid white;
+    color:white;
+    text-align:center;
+    /* font-weight:600;
+    font-size:16px; */
+}
+.blue{
+    background-color: blue;
+    left:40px;
+    z-index:1;
+
+}
+.red{
+    background-color: red;
+    left:80px;
+    z-index:3;
+}
+.green{
+    background-color: green;
+    left:120px;
+    z-index:2;
+}
+
+.blue:hover{
+    background-color:rgb(219, 213, 24);
+    z-index:7;
+}
