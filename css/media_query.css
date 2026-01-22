@@ -1,0 +1,51 @@
+/* media queries */
+@media only screen and (min-width:320px) and (max-width:767px){
+    body{
+        background-color:aquamarine;
+        font-family:'Courier New', Courier, monospace;
+    }
+
+    h1{
+        font-size:40px;
+        color:brown;
+        text-shadow:4px 4px 7px black;
+        
+    }
+    .img2{
+        height:300px;
+        width:400px;
+    }
+    .img1,.img2{
+        box-shadow:5px 5px 8px red;
+    }
+
+}
+
+/* From 768px and up */
+@media(min-width:768px){
+    body{
+        background-color:rgb(154, 120, 187);
+        color:black;
+        font-family:arial;
+    }
+    h1{
+        color:blueviolet;
+        font-size:30px;
+    }
+}
+
+/* max-width query
+/* from 850px and up , until 950px */
+
+@media(min-width:850px) and (max-width:950px){
+    body{
+        background-color:burlywood;
+        color:blue;
+
+    }
+    h1,h3{
+        color:brown;
+    }
+}
+
+
