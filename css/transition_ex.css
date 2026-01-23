@@ -1,0 +1,59 @@
+/* div{
+    height:200px;
+    width:200px;
+    background-color:aquamarine;
+    margin:10px auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition: transform 1s ease 0.2s;
+
+}
+
+div:hover{
+    
+    transform:scale(0.2);
+} */
+
+/* animation */
+.box1{
+    height:200px;
+    width:200px;
+    background-color:aquamarine;
+    margin:10px auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    animation: scalebox 10s linear 1s infinite;
+
+}
+@keyframes scalebox{
+    from{transform:rotate(0deg);
+    background-color:red}
+    to{transform:rotate(360deg);
+    background-color:orange;
+border-radius:50%;}
+
+}
+.button{
+    height:50px;
+    width:200px;
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+}
+.button1{
+    background-color:aquamarine;
+     animation: click 1s ease-in 1s infinite alternate;
+
+}
+
+@keyframes click{
+    from{transform:translateX(0px);}
+    to{transform:translateX(150px);}
+}
+
+/* how to achieve responsive we */
