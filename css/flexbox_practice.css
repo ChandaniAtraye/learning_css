@@ -1,0 +1,93 @@
+
+/*  justify content always works on main axis
+align items always works on cross axis */
+/* .container{
+    display:flex;
+    gap:10px;
+    
+    justify-content: center;
+    height:100vh;
+    flex-wrap: wrap;
+    
+}
+
+
+.box{
+    height:100px;
+    width:100px;
+    background-color:aquamarine;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+} */
+
+.navbar{
+    background-color: rgb(204, 222, 222);
+    padding:10px;
+    display:flex;
+    gap:10px;
+    justify-content:space-between;
+}
+.menu a{
+    text-decoration: none;
+    font-weight:900;
+    transition:transform 2s ease-in 0.1s;
+    animation: changeColor 5s ease-in-out 0.1s infinite;
+}
+a:hover{
+    color:black;
+    font-size:18px;
+    color: red ;
+    transform:rotate(45deg);
+
+   
+}
+@keyframes changeColor{
+    from {
+        color:black;
+    }
+    to{
+        color:yellow;
+    }
+}
+
+.circle{
+    background-color:cyan;
+    height:100px;
+    width:100px;
+    margin:5px;
+    padding:10px;
+    border-radius: 30px;
+    background-image: url();
+    animation:changeState 5s 2 ;
+   
+
+}
+
+@keyframes changeState{
+    from 0%{
+        backround-color:cyan;
+        transform:translate(0,0);
+    }
+     25%{
+        background-color: red;
+        transform:translate(200px,0);
+        
+        border-radius:50%;
+    }
+    50%{
+        background-color: blue;
+        transform:translate(200px,200px);
+        
+    }
+    75%{
+        background-color: blue;
+        transform:translate(0,200px);
+       
+    }
+    100%{
+        background-color: blue;
+        transform:translate(0,0);
+    } 
+}
